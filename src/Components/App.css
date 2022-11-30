@@ -1,0 +1,108 @@
+body{
+  background: black;
+}
+
+.stock-container {
+  min-height: 100vh;
+}
+.topHeader {
+  background: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding:25px 16px 8px 16px;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.logo {
+  width: 250px;
+  height: 50px;
+  margin: 0;
+  object-fit: cover;
+}
+.topHeader a{
+  color: rgba(255, 255, 255, 0.906);
+}
+.rightHeader {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  display:none;
+}
+@media (min-width:986px) {
+  .rightHeader{
+    display:flex;
+  }
+}
+.rightHeader a {
+  margin: 0 15px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+.rightHeader a:hover{
+  color: white;
+}
+.rightHeader input{
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  background: rgba(255, 255, 255, 0.906);
+}
+.inputSearch{
+  outline: none;
+}
+.mainContent {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.FooterContent {
+  background:black;
+}
+.logoEnd{
+  display: flex;
+  justify-content: center;
+}
+.piclogoFooter {
+  width: 250px;
+  height: 50px;
+}
+.logoFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logoFooter a {
+  margin: 20px;
+}
+.logoFooter a img{
+  width: 40px;
+  height: 40px;
+}
+
+.textEnd {
+  font-size: 18px;
+  text-align: center;
+  color: rgb(163, 163, 163);
+  padding-bottom: 18px;
+}
+
+.lineChat img {
+  width: 50px;
+  height: 50px;
+}
+.lineChat {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+}
+
+.stock-list {
+  height: 300px !important;
+}
+
+.scrollable {
+  overflow-y: auto;
+}
